@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>MaquesDeSantaInés</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Bitter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Geologica:wght@700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+    <body id="contact_bg">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"><br><br>
+                    <img src="data/logoestirat.png" width="175px">
+                </div>
+                <nav><br><br>
+                    <ul id="MenuItems">
+                        <li><a href="0.index.html">INICI</li>
+                        <li><a href="0.products.html">PRODUCTES</li>
+                        <li><a href="0.vi_i_salut.html">VI I SALUT</li>
+                        <li><a href="0.calendari.html">CALENDARI</li>
+                        <li><a href="0.contacte.html">CONTACTE<a/></li>
+                    </ul>
+                </nav>
+                <img src="data/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+            
+            <div class="row">
+                <div class="contact-col2" id="top-contact"><br><br>
+                    <div class="form">
+                        <img src="/data/dibuixCopa.png" id="imgE">
+                        <img src="/data/dibuixCopa.png" id="imgD">
+                        <form action="gmailto:pagesperepages@gmail.com?subject=Formulario de contacto&amp;" method="post" enctype="text/plain" name="form1" id="form1" onsubmit="MM_validateForm('Nombre','','R','Telefono','','RisNum','Correo electronico','','NisEmail');return document.MM_returnValue">
+                            <h1>FORMULARI DE CONTACTE</h1><br><br>
+
+                                <h2>Nom i Cognoms*</h2>
+                            <h6><input name="Nombre" type="text" id="Nombre" size="40"></h6>
+                                <h2>Adreça</h2>
+                            <h6><input name="Direccion" type="text" id="Direccion" size="40"></h6>
+                                <h2>C.P. i Població</h2>
+                            <h6><input name="Poblacion" type="text" id="Poblacion" size="40"></h6>
+                                <h2>Telèfon*</h2>
+                            <h6><input name="Telefono" type="text" id="Telefono"></h6>
+                                <h2>Correu Electrònic</h2>
+                            <h6><input name="Correo electronico" type="text" id="Correoelectronico" size="40"></h6>
+                                <h2>Empresa</h2>
+                            <h6><input name="Empresa" type="text" id="Empresa" size="40"></h6>
+                                <h2>Comentaris</h2>
+                            <h6><textarea name="Comentarios" cols="30" wrap="physical" class="Estilo9" id="Comentarios"></textarea></h6>
+                            
+                            <h6><label>*</label>Camps requerits</h6>
+                            <h6>&nbsp;</h6>
+                            <h6><input type="reset" name="Submit" value="ESBORRAR" class="formBTN"> <input type="submit" name="Submit2" value="ENVIAR" class="formBTN"></h6>
+                        </form><br><br><br>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="contact-col2"><br><br>
+                    <table id="table">
+                        <tr>
+                            <td id="pleft"><b>OFICINES / MAGATZEM:</b><br>
+                                Sagunt, 27 baixos<br>
+                                08225 Terrassa Barcelona - Spain<br>
+                                Tel. 937 342 156<br>
+                                Fax. 937 359 750<br>
+                                info@marquesdesantaines.com<br><br>
+                                <br>
+                            </td>
+                            <td>
+                                <img id="filigrana" src="/data/filigrana.png">
+                            </td>
+                            <td id="pright">
+                            <b>CELLERS:</b><br>
+                                    Torrelles de Foix/Subirats (Penedès)<br>
+                                    Poboleda (Priorat)<br>
+                                    Batea (Terra Alta)<br>
+                                    Alberite (Rioja)<br>
+                                    La Horra (Ribera del Duero)<br>
+                                    Lantaño (Rías Baixas)<br>
+                                    <br><br> 
+                            </td>
+                        </tr>
+                    </table> 
+                    
+                </div>
+                        
+            </div>        
+            
+        
+        </div>
+        <div class="col1">
+            <p>Responsable: MARQUES DE SANTA INES Grup, scp. CIF J63455380 - Sagunt, 27 Bx. 08225-Terrassa. La finalitat del tractament de dades per a la què vostè dóna el seu consentiment serà la de gestionar les dades dels clients/usuaris que accedeixin al formulari de contacte de la pàgina web de l’entitat, respondre les seves consultes i/o enviar publicitat de productes o serveis que puguin ser del seu interès. Les dades proporcionades es conservaran mentre no sol·liciti el cessament de l’activitat i no es cediran a tercers, excepte per obligació legal. Vostè té dret a l’accés, rectificació, o a sol·licitar la seva supressió quan les dades ja no siguin necessàries per la finalitat que foren recollides en els termes previstos a la Llei, que podrà exercir mitjançant escrit dirigit al responsable de les mateixes a l'adreça d'e-mail info@marquesdesantaines.com. Pot consultar informació addicional aquí
+            </p> <br><br>
+        </div><br>
+
+
+<!--- ANTERIOR CODI 
+        <div class="row">
+            <div class="col2" id="contact-col2"><br><br>
+                <h1>CONTACTE</h1><br><br>
+                <h4>AQUESTA PÀGINA WEB ÉS NOMÉS D'US INFORMATIU.<br><br>PER A LA REALITZACIÓ DE TOT TIPUS DE COMANDES O DUBTES CALDRÀ TRUCAR PREVIAMENT A QUALSEVOL DELS Nº DE TELÈFON INDICATS A CONTINUACIÓ O ENVIAR UN CORREU ELECTRÓNIC A LA ADREÇA ELECTRÓNICA CORRESPONENT. </h4><br><br>
+                    <p id="vi_p">
+                        Tel. 937 342 156<br>
+                        Fax. 937 359 750<br>
+                        info@marquesdesantaines.com<br>
+                        comandes@marquesdesantaines.com
+                        </p><br><br><br><br><br><br><br><br><br><br>
+                    
+                    <hr></a><br><br><br>
+                    <b>OFICINES / MAGATZEM:</b><br>
+                        Sagunt, 27 baixos<br>
+                        08225 Terrassa Barcelona - Spain<br>
+                        Tel. 937 342 156<br>
+                        Fax. 937 359 750<br>
+                        info@marquesdesantaines.com<br><br>
+                        <br>
+            </div>
+                
+
+
+
+
+                <div class="col2" id="contact-col2-2">
+                    <h1>EL NOSTRE SERVEI</h1><br><br>
+                    <h4>QUALITAT</h4>
+                    <p id="vi_p">Tots els productes de Marqués de Santa Inés són controlats rigorosament per experts enòlegs.
+                        </p><br>
+                    <h4>EXCLUSIVITAT</h4>
+                    <p id="vi_p">Els nostres vins no es troben a les licoreries ni a les grans superfícies. La producció és limitada, i la seva venda és exclusiva per a vostè.
+                        </p><br>
+                    <h4>SERVEI A DOMICILI</h4>
+                    <p id="vi_p">Li lliurem els seus vins personalment, sense intermediari, en un plaç breu.
+                            </p><br>
+                    <h4>GARANTIA</h4>
+                    <p id="vi_p">Li garantim els nostres productes el 100%, seguretat en la compra.
+                            </p><br>
+                    <h4>DEGUSTACIONS PERSONALITZADES</h4>
+                    <p id="vi_p"><b>Tastar sempre abans de comprar:</b> Per mitjà de degustacions gratuïtes al seu domicili, a l’empresa, i a Fires on exposem el producte i oferim degustació i assessorament professional.
+                            </p><br>
+                    <hr></a><br><br><br>
+                    
+                    <div class="col2"> 
+                    <p class="pright"><b>CELLERS:</b><br>
+                        Torrelles de Foix/Subirats (Penedès)<br>
+                        Poboleda (Priorat)<br>
+                        Batea (Terra Alta)<br>
+                        Alberite (Rioja)<br>
+                        La Horra (Ribera del Duero)<br>
+                        Lantaño (Rías Baixas)<br>
+                        <br><br></p>  
+                    </div>   
+                </div>
+        <br><br>
+                
+                <div class="col1">
+                    <p>Responsable: MARQUES DE SANTA INES Grup, scp. CIF J63455380 - Sagunt, 27 Bx. 08225-Terrassa. La finalitat del tractament de dades per a la què vostè dóna el seu consentiment serà la de gestionar les dades dels clients/usuaris que accedeixin al formulari de contacte de la pàgina web de l’entitat, respondre les seves consultes i/o enviar publicitat de productes o serveis que puguin ser del seu interès. Les dades proporcionades es conservaran mentre no sol·liciti el cessament de l’activitat i no es cediran a tercers, excepte per obligació legal. Vostè té dret a l’accés, rectificació, o a sol·licitar la seva supressió quan les dades ja no siguin necessàries per la finalitat que foren recollides en els termes previstos a la Llei, que podrà exercir mitjançant escrit dirigit al responsable de les mateixes a l'adreça d'e-mail info@marquesdesantaines.com. Pot consultar informació addicional aquí
+                    </p> <br><br>
+                </div>
+                --> 
+    </div>
+    
+
+    
+    <!--- footer --> 
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3><a href="https://www.anadas-do.com/" target="_blank" style="color: white">QUALIFICACIÓ OFICIAL D'ANYADES (PDF)</a></h3>
+                    <img src="/data/ftlogo.png">
+                    <br><br>
+                </div>
+                <div class="footer-col-2">
+                    <h3>SERVEI A DOMICILI GRATUÏT</h3>
+                    <ul>
+                        <li>:: Tel. 937 342 156</li>
+                        <li>:: Fax. 937 359 750</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>CONTACTA I SEGUEIX-NOS</h3>
+                    <ul>
+                        <li>comandes@marquesdesantaines.com</li>
+                        <li><a href="https://www.facebook.com/MarquesdeSantaInesCellers/" target="_blank" style=color:#8a8a8a><img src="/data/facebook.png" width="15px"> @Marquès de Santa Ines Cellers Artesans</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>            
+            <p class="copyright">Copyright 2023 - Marqués de Santa Inés</p>
+        </div>
+        <br>
+    </div>
+
+        <!--- js for toggle menu --> 
+
+    <script>
+        
+    function MM_findObj(n, d) { //v4.01
+    
+        var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    
+        d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+    
+        if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+    
+        for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+    
+        if(!x && d.getElementById) x=d.getElementById(n); return x;
+    
+    }
+    
+    
+    
+    function MM_validateForm() { //v4.0
+    
+        var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    
+        for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    
+        if (val) { nm=val.name; if ((val=val.value)!="") {
+    
+            if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+    
+            if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+    
+            } else if (test!='R') { num = parseFloat(val);
+    
+            if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+    
+            if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+    
+                min=test.substring(8,p); max=test.substring(p+1);
+    
+                if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    
+        } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    
+        } if (errors) alert('The following error(s) occurred:\n'+errors);
+    
+        document.MM_returnValue = (errors == '');
+    
+    }
+    
+    
+    </script>
+
+</body>
+</html> 
